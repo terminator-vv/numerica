@@ -6,6 +6,16 @@ Vector::Vector(std::initializer_list<double> values) {
 	}
 }
 
+Vector::Vector(int size) {
+	if (size < 0) {
+		throw std::invalid_argument("Size must be non-negative");
+	}
+	
+	for (int i = 0; i < size; ++i) {
+		data.push_back(0.0);
+	}
+}
+
 int Vector::size() const {
 	return data.size();
 }

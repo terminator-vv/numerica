@@ -10,6 +10,7 @@ private:
 	std::vector<double> data;
 public:
 	Vector(std::initializer_list<double> init); // constructor
+	Vector(int size); // empty vector of given size
 	int size() const; // returns size 
 	double& operator[] (int index); // allows for input and changing the vector
 	const double& operator[] (int index) const; // allows for input for constant vectors
