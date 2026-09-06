@@ -1,2 +1,2 @@
 # numerica
-Just a library that invovles a bunch of linear algebra and probability math stuff. 
+A from-scratch C++ numerical computing library exploring the implementation of mathematical algorithms for scientific and quantitative computing.
